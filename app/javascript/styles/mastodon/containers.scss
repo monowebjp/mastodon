@@ -206,16 +206,17 @@
   }
 
   .header {
-    background: lighten($ui-base-color, 8%);
-    box-shadow: 0 0 15px rgba($base-shadow-color, 0.2);
-    border-radius: 4px;
-    height: 48px;
-    margin: 10px 0;
-    display: flex;
-    align-items: stretch;
-    justify-content: center;
-    flex-wrap: nowrap;
-    overflow: hidden;
+    //background: lighten($ui-base-color, 8%);
+    //box-shadow: 0 0 15px rgba($base-shadow-color, 0.2);
+    //border-radius: 4px;
+    //height: 48px;
+    //margin: 10px 0;
+    //display: flex;
+    //align-items: stretch;
+    //justify-content: center;
+    //flex-wrap: nowrap;
+    //overflow: hidden;
+    display: none;
 
     @media screen and (max-width: $no-gap-breakpoint) {
       position: fixed;
